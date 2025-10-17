@@ -9,7 +9,7 @@ logic m_data;
 
 logic mic_pdm;
 logic s_n_rst; 
-localparam MEM_SIZE = 4096 * 2;
+localparam MEM_SIZE = 2083000; //<- THIS IS THE MAX VALUE.
 localparam MEM_FILE = "pdm_columns_2ch_2_083MHz_1s_4cm_2kHz_60deg.mem";
 //localparam MEM_FILE = "pdm_columns_2ch_2_083MHz_1s_4cm_2kHz_0deg.mem";
 logic [1:0] mem [0:MEM_SIZE-1];
